@@ -1,16 +1,11 @@
-if SHIELD_LAMBBT_LEFT 
-
+if SHIELD_KEILER_LEFT
 config ZMK_KEYBOARD_NAME
-    default "LambBT"
-
+    default "Keiler"
 config ZMK_SPLIT_ROLE_CENTRAL
     default y
-
 endif
 
-if SHIELD_LAMBBT_LEFT || SHIELD_LAMBBT_RIGHT
-
+if SHIELD_KEILER_LEFT || SHIELD_KEILER_RIGHT
 config ZMK_SPLIT
     default y
-
 endif
