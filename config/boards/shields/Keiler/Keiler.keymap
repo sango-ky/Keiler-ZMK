@@ -69,7 +69,7 @@
                                   &kp ESC    &kp TAB    &lp SYM SPACE    &lp NUM RET     &kp BSPC   &kp DEL
         //                      ╰──────────┴──────────┴──────────╯          ╰──────────┴──────────┴──────────╯
         >;
-        };""
+        };
 
         sym_layer {
             bindings = <
