@@ -11,9 +11,16 @@
 
 
 / {
-//    combos {
-//        #include "combos.dtsi"    
-//    };
+    combos {
+        //#include "combos.dtsi" 
+
+        //combo_ralt {
+        //    layers = <0>
+        //    timeout-ms = <50>;
+        //    key-positions = <11 18>;
+        //    bindings = <&kp RALT>;
+        //};
+    };
 
     behaviors {
         ht: hold_tap {
@@ -54,7 +61,7 @@
             &kp Q      &kp W      &kp F      &kp P      &kp B                 &kp J      &kp L      &kp U      &kp Y      &kp SEMI
         //├──────────┼──────────┼──────────┼──────────┼──────────┤          ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│  A       │  R       │  S       │  T       │  G       │          │  M       │  N       │  E       │  I       │   O      │
-           &ht LGUI A &ht LALT R &ht LCTRL S &ht LSHFT T &kp G                &kp M    &ht RSHFT N &ht RCTRL E &ht RALT I &ht RGUI O
+           &ht LGUI A &ht LALT R &ht LCTRL S &ht LSHFT T &kp G                &kp M    &ht RSHFT N &ht RCTRL E &ht LALT I &ht RGUI O
         //├──────────┼──────────┼──────────┼──────────┼──────────┤          ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│  Z       │  X       │  C       │  D       │  V       │          │  K       │  H       │ , <      │ . >      │ / ?      │
             &kp Z      &kp X      &kp C      &kp D      &kp V                 &kp K      &kp H      &kp COMMA  &kp DOT    &kp FSLH
@@ -62,7 +69,7 @@
                                   &kp ESC    &kp TAB    &lp SYM SPACE    &lp NUM RET     &kp BSPC   &kp DEL
         //                      ╰──────────┴──────────┴──────────╯          ╰──────────┴──────────┴──────────╯
         >;
-        };
+        };""
 
         sym_layer {
             bindings = <
@@ -71,7 +78,7 @@
             &none      &none      &none      &kp GRAVE  &kp STAR              &kp CARET  &kp LPAR   &kp RPAR   &kp EXCL   &kp TILDE
         //├──────────┼──────────┼──────────┼──────────┼──────────┤          ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│          │          │          │    "     │          │          │    $     │    {     │    }     │    &     │    |     │
-            &none      &none      &none      &kp DQT    &kp PLUS              &kp DLLR   &kp LBRC   &kp RBRC   &kp AMPS   &kp PIPE
+            &none      &kp RALT   &none      &kp DQT    &kp PLUS              &kp DLLR   &kp LBRC   &kp RBRC   &kp AMPS   &kp PIPE
         //├──────────┼──────────┼──────────┼──────────┼──────────┤          ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│          │          │          │    '     │          │          │    =     │    [     │    ]     │    %     │    \     │
             &none      &none      &none      &kp SQT    &none                 &kp EQUAL  &kp LBKT   &kp RBKT   &kp PRCNT  &kp BSLH
