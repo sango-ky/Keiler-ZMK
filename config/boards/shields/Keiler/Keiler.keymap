@@ -50,6 +50,13 @@
             require-prior-idle-ms = <125>;
             bindings = <&kp>, <&kp>;
         };
+
+        cs: ctrl_shift {
+            compatible = "zmk,behavior-tap-dance";
+            #binding-cells = <0>;
+            tapping-term-ms = <200>;
+            bindings = <&kp LCTRL>, <&kp LC(LSHFT)>;
+        }
     };
 
     keymap {
@@ -101,7 +108,7 @@
         //│          │    1     │    2     │    3     │    0     │          │          │          │          │          │          │
           &bt BT_SEL 0 &mp F1 N1  &mp F2 N2  &mp F3 N3  &mp F10 N0            &none      &none      &kp DOWN   &none      &none
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤          ├──────────┼──────────┼──────────┴──────────┴──────────╯
-                                  &none      &kp LSHFT  &kp LCTRL             &none      &none      &none
+                                  &none      &kp LSHFT  &cs                   &none      &none      &none
         //                      ╰──────────┴──────────┴──────────╯          ╰──────────┴──────────┴──────────╯
             >;
         };
