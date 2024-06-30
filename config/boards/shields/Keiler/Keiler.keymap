@@ -10,6 +10,13 @@
 #define NUM 2
 
 
+
+&caps_word {
+    continue-list = <ESC>;
+};
+
+
+
 / {
     
 // ╭──────────────╮ ╭──────────────╮
@@ -19,13 +26,11 @@
 // ╰─────╮30 31 32│ │33 34 35╭─────╯
 //       ╰────────╯ ╰────────╯
 
-    &caps_word {
-        continue-list = <ESC>;
-    };
+
 
     combos {
         combo_caps {
-            layers = <0>
+            layers = <0>;
             timeout-ms = <75>;
             require-prior-idle-ms = <100>;
             key-positions = <14 15>;
