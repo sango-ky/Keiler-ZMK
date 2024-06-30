@@ -11,15 +11,26 @@
 
 
 / {
-    combos {
-        //#include "combos.dtsi" 
+    
+// ╭──────────────╮ ╭──────────────╮
+// │ 0  1  2  3  4│ │ 5  6  7  8  9│
+// │10 11 12 13 14│ │15 16 17 18 19│
+// │20 21 22 23 24│ │25 26 27 28 29│
+// ╰─────╮30 31 32│ │33 34 35╭─────╯
+//       ╰────────╯ ╰────────╯
 
-        //combo_ralt {
-        //    layers = <0>
-        //    timeout-ms = <50>;
-        //    key-positions = <11 18>;
-        //    bindings = <&kp RALT>;
-        //};
+    &caps_word {
+        continue-list = <ESC>;
+    };
+
+    combos {
+        combo_caps {
+            layers = <0>
+            timeout-ms = <75>;
+            require-prior-idle-ms = <100>;
+            key-positions = <14 15>;
+            bindings = &caps_word;
+        };
     };
 
     behaviors {
