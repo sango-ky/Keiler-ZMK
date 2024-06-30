@@ -17,5 +17,5 @@ include:
     shield: Keiler_left
   - board: nice_nano_v2
     shield: Keiler_right
-  - board: nice_nano_v2
-    shield: settings_reset
+  - board: seeeduino_xiao_ble
+    shield: Keiler_dongle
