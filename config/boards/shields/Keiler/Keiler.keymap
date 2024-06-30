@@ -26,15 +26,15 @@
 // ╰─────╮30 31 32│ │33 34 35╭─────╯
 //       ╰────────╯ ╰────────╯
 
-
-
     combos {
+        compatible = "zmk,combos";
+
         combo_caps {
             layers = <0>;
             timeout-ms = <75>;
             require-prior-idle-ms = <100>;
             key-positions = <14 15>;
-            bindings = &caps_word;
+            bindings = <&caps_word>;
         };
     };
 
