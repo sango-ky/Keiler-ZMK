@@ -116,15 +116,15 @@
             bindings = <
         //╭──────────┬──────────┬──────────┬──────────┬──────────╮          ╭──────────┬──────────┬──────────┬──────────┬──────────╮
         //│  Q       │  W       │  F       │  P       │  B       │          │  J       │  L       │  U       │  Y       │  ;       │
-            &kp Q      &kp W      &kp F      &kp P      &kp B                 &kp J      &kp L      &kp U      &kp Y      &kp SEMI
+            &kp Q      &kp W      &kp F      &kp P      &kp B                 &kp J      &kp L      &kp U      &kp Y      &kp SEMI;
         //├──────────┼──────────┼──────────┼──────────┼──────────┤          ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│  A       │  R       │  S       │  T       │  G       │          │  M       │  N       │  E       │  I       │   O      │
-           &ht LGUI A &ht LALT R &ht LCTRL S &ht LSHFT T &ht LGUI G          &ht RGUI M    &ht RSHFT N &ht RCTRL E &ht LALT I &ht RGUI O
+           &ht LGUI A &ht LALT R &ht LCTRL S &ht LSHFT T &ht LGUI G          &ht RGUI M    &ht RSHFT N &ht RCTRL E &ht LALT I &ht RGUI O;
         //├──────────┼──────────┼──────────┼──────────┼──────────┤          ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│  Z       │  X       │  C       │  D       │  V       │          │  K       │  H       │ , <      │ . >      │ / ?      │
-            &kp Z      &kp X      &kp C      &kp D      &kp V                 &kp K      &kp H      &kp COMMA  &kp DOT    &kp FSLH
+            &kp Z      &kp X      &kp C      &kp D      &kp V                 &kp K      &kp H      &kp COMMA  &kp DOT    &kp FSLH;
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤          ├──────────┼──────────┼──────────┴──────────┴──────────╯
-                                  &kp ESC   &lp NAV SPACE  &lp SYM TAB       &lp SYM RET  &lp NUM BSPC &lp FUN DEL
+                                  &kp ESC   &lp NAV SPACE  &lp SYM TAB       &lp SYM RET  &lp NUM BSPC &lp FUN DEL;
         //                      ╰──────────┴──────────┴──────────╯          ╰──────────┴──────────┴──────────╯
         >;
         };
@@ -133,16 +133,16 @@
             bindings = <
         //╭──────────┬──────────┬──────────┬──────────┬──────────╮          ╭──────────┬──────────┬──────────┬──────────┬──────────╮
         //│     {    │     &    │     *    │    (     │    }     │          │          │          │          │          │          │
-            &kp LBRC   &kp AMPS  &kp ASTERISK   &kp LPAR  &kp RBRC            &none      &none      &none      &none      &none
+            &kp LBRC   &kp AMPS  &kp ASTERISK   &kp LPAR  &kp RBRC            &none      &none      &none      &none      &none;
         //├──────────┼──────────┼──────────┼──────────┼──────────┤          ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│     '    │     $    │     %    │    ^     │     +    │          │          │          │          │          │          │
-            &kp SQT   &kp DLLR &kp PERCENT   &kp CARET  &kp PLUS             &kp RGUI  &kp RSHIFT   &kp RCTRL     &kp RALT  &kp RGUI
+            &kp SQT   &kp DLLR &kp PERCENT   &kp CARET  &kp PLUS             &kp RGUI  &kp RSHIFT   &kp RCTRL     &kp RALT  &kp RGUI;
         //├──────────┼──────────┼──────────┼──────────┼──────────┤          ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│     ~    │     !    │     @    │    #     │     |    │          │          │          │          │          │          │
-            &kp TILDE  &kp EXCL  &kp AT     &kp HASH    &kp PIPE                 &none      &none      &none   &none      &none
+            &kp TILDE  &kp EXCL  &kp AT     &kp HASH    &kp PIPE                 &none      &none      &none   &none      &none;
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤          ├──────────┼──────────┼──────────┴──────────┴──────────╯
         //                      │          │          │          │          │          │          │          │ 
-                                  &kp LPAR   &kp RPAR   &kp UNDER            &none      &none      &none
+                                  &kp LPAR   &kp RPAR   &kp UNDER            &none      &none      &none;
         //                      ╰──────────┴──────────┴──────────╯          ╰──────────┴──────────┴──────────╯
             >;
         };
@@ -151,15 +151,15 @@
             bindings = <
         //╭──────────┬──────────┬──────────┬──────────┬──────────╮          ╭──────────┬──────────┬──────────┬──────────┬──────────╮
         //│    [     │    7     │    8     │    9     │    ]     │          │          │          │          │          │          │
-          &kp LBKT     &kp N7     &kp N8     &kp N9     &kp RBKT              &none       &none      &none      &none      &none
+          &kp LBKT     &kp N7     &kp N8     &kp N9     &kp RBKT              &none       &none      &none      &none      &none;
         //├──────────┼──────────┼──────────┼──────────┼──────────┤          ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│    :     │    4     │    5     │    6     │    +     │          │          │          │          │          │          │
-          &kp SEMI     &kp N4      &kp N5      &kp N6   &kp PLUS              &kp RGUI  &kp RSHIFT   &kp RCTRL     &kp RALT  &kp RGUI
+          &kp SEMI     &kp N4      &kp N5      &kp N6   &kp PLUS              &kp RGUI  &kp RSHIFT   &kp RCTRL     &kp RALT  &kp RGUI;
         //├──────────┼──────────┼──────────┼──────────┼──────────┤          ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│    ~     │    1     │    2     │    3     │    \     │          │          │          │          │          │          │
-          &kp TILDE    &kp  N1     &kp  N2   &kp N3     &kp BACKSLASH         &none      &none      &none     &none      &none
+          &kp TILDE    &kp  N1     &kp  N2   &kp N3     &kp BACKSLASH         &none      &none      &none     &none      &none;
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤          ├──────────┼──────────┼──────────┴──────────┴──────────╯
-                                  &kp COMMA  &kp N0     &kp MINUS               &kp RET    &kp BSPC    &kp DEL
+                                  &kp COMMA  &kp N0     &kp MINUS               &kp RET    &kp BSPC    &kp DEL;
         //                      ╰──────────┴──────────┴──────────╯          ╰──────────┴──────────┴──────────╯
             >;
         };
@@ -168,15 +168,15 @@
             bindings = <
         //╭──────────┬──────────┬──────────┬──────────┬──────────╮          ╭──────────┬──────────┬──────────┬──────────┬──────────╮
         //│          │          │          │          │          │          │          │          │          │          │          │
-          &none       &none      &none      &none       &none              &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3  &bt BT_CLR
+          &none       &none      &none      &none       &none              &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3  &bt BT_CLR;
         //├──────────┼──────────┼──────────┼──────────┼──────────┤          ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│          │          │          │          │          │          │          │          │          │          │          │
-          &kp LGUI    &kp LALT   &kp LCTRL  &kp LSHFT  &kp LGUI               &none      &kp LEFT   &kp DOWN   &kp up  &kp RIGHT
+          &kp LGUI    &kp LALT   &kp LCTRL  &kp LSHFT  &kp LGUI               &none      &kp LEFT   &kp DOWN   &kp up  &kp RIGHT;
         //├──────────┼──────────┼──────────┼──────────┼──────────┤          ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│          │          │          │          │          │          │          │          │          │          │          │
-          &none       &none      &none      &none       &none                &none      &none      &kp PG_DN  &kp PG_UP      &none
+          &none       &none      &none      &none       &none                &none      &none      &kp PG_DN  &kp PG_UP      &none;
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤          ├──────────┼──────────┼──────────┴──────────┴──────────╯
-                                  &none      &none      &none                   &none      &none      &none
+                                  &none      &none      &none                   &none      &none      &none;
         //                      ╰──────────┴──────────┴──────────╯          ╰──────────┴──────────┴──────────╯
             >;
         };
@@ -185,15 +185,15 @@
             bindings = <
         //╭──────────┬──────────┬──────────┬──────────┬──────────╮          ╭──────────┬──────────┬──────────┬──────────┬──────────╮
         //│   F10    │    F7    │    F8    │    F9    │          │          │          │          │          │          │          │
-          &kp F10      &kp F7     &kp F8     &kp F9    &kp PSCRN              &none      &none      &none      &none      &none
+          &kp F10      &kp F7     &kp F8     &kp F9    &kp PSCRN              &none      &none      &none      &none      &none;
         //├──────────┼──────────┼──────────┼──────────┼──────────┤          ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│   F11    │    F4    │    F5    │    F6    │          │          │          │          │          │          │          │
-          &kp F11      &kp F4     &kp F5     &kp F6     &kp SCROLLLOCK        &kp RGUI   &kp RSHIFT &kp RCTRL   &kp RALT   &kp RGUI
+          &kp F11      &kp F4     &kp F5     &kp F6     &kp SCROLLLOCK        &kp RGUI   &kp RSHIFT &kp RCTRL   &kp RALT   &kp RGUI;
         //├──────────┼──────────┼──────────┼──────────┼──────────┤          ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│   F12    │    F1    │    F2    │    F3    │          │          │          │          │          │          │          │
-          &kp F12      &kp F1     &kp F2     &kp f3     &kp PAUSE_BREAK        &none      &none      &none     &none      &none
+          &kp F12      &kp F1     &kp F2     &kp f3     &kp PAUSE_BREAK        &none      &none      &none     &none      &none;
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤          ├──────────┼──────────┼──────────┴──────────┴──────────╯
-                                  &none      &none      &none                   &none      &none      &none
+                                  &none      &none      &none                   &none      &none      &none;
         //                      ╰──────────┴──────────┴──────────╯          ╰──────────┴──────────┴──────────╯
             >;
         };
