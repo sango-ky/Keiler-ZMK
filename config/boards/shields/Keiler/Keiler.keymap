@@ -8,7 +8,7 @@
 
 #define SYM 1
 #define NUM 2
-#define NUV 3
+#define NAV 3
 #define FUN 4
 
 
@@ -154,7 +154,7 @@
           &kp LBKT     &kp N7     &kp N8     &kp N9     &kp RBKT              &none       &none      &none      &none      &none
         //├──────────┼──────────┼──────────┼──────────┼──────────┤          ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│    :     │    4     │    5     │    6     │    +     │          │          │          │          │          │          │
-          &kp SEMI     &kp N4      &kp N5      &kp N6   &kp PLUS              &kp RGUI  &kp RSHIFT   &k RCTRL     &kp RALT  &kp RGUI
+          &kp SEMI     &kp N4      &kp N5      &kp N6   &kp PLUS              &kp RGUI  &kp RSHIFT   &kp RCTRL     &kp RALT  &kp RGUI
         //├──────────┼──────────┼──────────┼──────────┼──────────┤          ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│    ~     │    1     │    2     │    3     │    \     │          │          │          │          │          │          │
           &kp TILDE    &kp  N1     &kp  N2   &kp N3     &kp BACKSLASH         &none      &none      &none     &none      &none
@@ -188,7 +188,7 @@
           &kp F10      &kp F7     &kp F8     &kp F9    &kp PSCRN              &none      &none      &none      &none      &none
         //├──────────┼──────────┼──────────┼──────────┼──────────┤          ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│   F11    │    F4    │    F5    │    F6    │          │          │          │          │          │          │          │
-          &kp F11      &kp F4     &kp F5     &kp F6     &kp SCROLLLOCK        &kp RGUI   &kp RSHIFT &k RCTRL   &kp RALT   &kp RGUI
+          &kp F11      &kp F4     &kp F5     &kp F6     &kp SCROLLLOCK        &kp RGUI   &kp RSHIFT &kp RCTRL   &kp RALT   &kp RGUI
         //├──────────┼──────────┼──────────┼──────────┼──────────┤          ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│   F12    │    F1    │    F2    │    F3    │          │          │          │          │          │          │          │
           &kp F12      &kp F1     &kp F2     &kp f3     &kp PAUSE_BREAK        &none      &none      &none     &none      &none
