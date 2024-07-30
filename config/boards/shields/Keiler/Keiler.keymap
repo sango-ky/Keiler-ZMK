@@ -124,7 +124,7 @@
         //│  Z       │  X       │  C       │  D       │  V       │          │  K       │  H       │ , <      │ . >      │ / ?      │
             &kp Z      &kp X      &kp C      &kp D      &kp V                 &kp K      &kp H      &kp COMMA  &kp DOT    &kp FSLH;
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤          ├──────────┼──────────┼──────────┴──────────┴──────────╯
-                                  &kp ESC   &lp NAV SPACE  &kp TAB       &lp SYM RET  &lp NUM BSPC  &lp FUN DEL;
+                                  &lt NUM ESC   &lt NAV SPACE  &kp TAB        &lt SYM RET  &lt NUM BSPC  &lt FUN DEL;
         //                      ╰──────────┴──────────┴──────────╯          ╰──────────┴──────────┴──────────╯
         >;
         };
