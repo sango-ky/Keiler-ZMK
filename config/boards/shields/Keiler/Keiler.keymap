@@ -113,20 +113,20 @@
             >;
         };
 
-//mod left half@num
+//mod left half@num adjust spacing
         num_layer {
             bindings = <
         //╭──────────┬──────────┬──────────┬──────────┬──────────╮          ╭──────────┬──────────┬──────────┬──────────┬──────────╮
         //│          │    7     │    8     │    9     │          │          │          │          │          │          │          │
-          &kp LBKT   &kp N7     &kp N8     &kp N9     &kp RBKT              &kp PG_UP  &none      &none      &none      &none
+          &kp LBKT      &kp N7      &kp N8      &kp N9      &kp RBKT            &kp PG_UP      &none      &none      &none      &none
         //├──────────┼──────────┼──────────┼──────────┼──────────┤          ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│          │    4     │    5     │    6     │          │          │          │          │          │          │          │
-          &kp SEMI   &kp N4     &kp N5     &kp N6     &kp EQUAL             &kp PG_DN  &kp LEFT   &kp UP     &kp RIGHT  &none
+          &kp SEMI      &kp N4      &kp N5      &kp N6      &kp EQUAL            &kp PG_DN      &kp LEFT      &kp UP      &kp RIGHT      &none
         //├──────────┼──────────┼──────────┼──────────┼──────────┤          ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│          │    1     │    2     │    3     │    \     │          │          │          │          │          │          │
-          &kp SQT    &kp N1     &kp N2     &kp N3     &kp BSLH               &none      &none      &kp DOWN   &none      &none
+          &kp SQT      &kp N1      &kp N2      &kp N3      &kp BSLH            &none      &none      &kp DOWN   &none      &none
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤          ├──────────┼──────────┼──────────┴──────────┴──────────╯
-                                  &kp DOT     &kp N0  &kp minus              &none      &none      &none
+                                &kp DOT      &kp N0      &kp minus              &none      &none      &none
         //                      ╰──────────┴──────────┴──────────╯          ╰──────────┴──────────┴──────────╯
             >;
         };
