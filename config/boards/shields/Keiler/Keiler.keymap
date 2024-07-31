@@ -95,20 +95,21 @@
         >;
         };
 
-        sym_layer {
+//new layer for symbols
+         sym_layer {
             bindings = <
         //╭──────────┬──────────┬──────────┬──────────┬──────────╮          ╭──────────┬──────────┬──────────┬──────────┬──────────╮
-        //│          │          │          │    `     │          │          │    ^     │    (     │    )     │    !     │    ~     │
-            &none      &none      &none      &kp GRAVE  &kp STAR              &kp CARET  &kp LPAR   &kp RPAR   &kp EXCL   &kp TILDE
+        //│     {    │     &    │     *    │    (     │    }     │          │          │          │          │          │          │
+            &kp LBRC   &kp AMPS  &kp ASTERISK   &kp LPAR  &kp RBRC            &none      &none      &none      &none      &none;
         //├──────────┼──────────┼──────────┼──────────┼──────────┤          ├──────────┼──────────┼──────────┼──────────┼──────────┤
-        //│          │          │          │    "     │          │          │    $     │    {     │    }     │    &     │    |     │
-            &none      &kp RALT   &none      &kp DQT    &kp PLUS              &kp DLLR   &kp LBRC   &kp RBRC   &kp AMPS   &kp PIPE
+        //│     '    │     $    │     %    │    ^     │     +    │          │          │          │          │          │          │
+            &kp SQT   &kp DLLR &kp PERCENT   &kp CARET  &kp PLUS             &kp RGUI  &kp RSHIFT   &kp RCTRL     &kp RALT  &kp RGUI;
         //├──────────┼──────────┼──────────┼──────────┼──────────┤          ├──────────┼──────────┼──────────┼──────────┼──────────┤
-        //│          │          │          │    '     │          │          │    =     │    [     │    ]     │    %     │    \     │
-            &none      &none      &none      &kp SQT    &none                 &kp EQUAL  &kp LBKT   &kp RBKT   &kp PRCNT  &kp BSLH
+        //│     ~    │     !    │     @    │    #     │     |    │          │          │          │          │          │          │
+            &kp TILDE  &kp EXCL  &kp AT     &kp HASH    &kp PIPE                 &none      &none      &none   &none      &none;
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤          ├──────────┼──────────┼──────────┴──────────┴──────────╯
-        //                      │          │          │          │          │    -_    │    #     │    @     │ 
-                                  &none      &none      &none            &mp UNDER MINUS &kp HASH   &kp AT
+        //                      │          │          │          │          │          │          │          │ 
+                                  &kp LPAR   &kp RPAR   &kp UNDER            &none      &none      &none;
         //                      ╰──────────┴──────────┴──────────╯          ╰──────────┴──────────┴──────────╯
             >;
         };
