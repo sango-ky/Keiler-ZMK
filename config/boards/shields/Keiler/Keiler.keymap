@@ -37,6 +37,38 @@
             key-positions = <13 16>;
             bindings = <&caps_word>;
         };
+        //add some combos
+        combo_lt {
+            layers = <0>;
+            timeout-ms = <75>;
+            require-prior-idle-ms = <100>;
+            key-positions = <26 27>;
+            bindings = <&kp LT>;
+        };
+
+        combo_gt {
+            layers = <0>;
+            timeout-ms = <75>;
+            require-prior-idle-ms = <100>;
+            key-positions = <28 29>;
+            bindings = <&kp GT>;
+        };
+
+        combo_dq {
+            layers = <0>;
+            timeout-ms = <75>;
+            require-prior-idle-ms = <100>;
+            key-positions = <27 28>;
+            bindings = <&kp DOUBLE_QUOTES>;
+        };
+
+        combo_minus {
+            layers = <0>;
+            timeout-ms = <75>;
+            require-prior-idle-ms = <100>;
+            key-positions = <7 8>;
+            bindings = <&kp MINUS>;
+        };
     };
 
     behaviors {
@@ -76,7 +108,7 @@
         };
     };
 
-// colmak D
+// colmak DH
     keymap {
         compatible = "zmk,keymap";
         default_layer {
