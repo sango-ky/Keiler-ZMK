@@ -76,6 +76,7 @@
         };
     };
 
+// colmak D
     keymap {
         compatible = "zmk,keymap";
         default_layer {
@@ -87,8 +88,8 @@
         //│  A       │  R       │  S       │  T       │  G       │          │  M       │  N       │  E       │  I       │   O      │
            &ht LGUI A &ht LALT R &ht LCTRL S &ht LSHFT T &kp G                &kp M    &ht RSHFT N &ht RCTRL E &ht LALT I &ht RGUI O
         //├──────────┼──────────┼──────────┼──────────┼──────────┤          ├──────────┼──────────┼──────────┼──────────┼──────────┤
-        //│  Z       │  X       │  C       │  D       │  V       │          │  K       │  H       │ , <      │ . >      │ / ?      │
-            &kp Z      &kp X      &kp C      &kp D      &kp V                 &kp K      &kp H      &kp COMMA  &kp DOT    &kp FSLH
+        //│  Z       │  C       │  D       │  V       │  Z       │          │  K       │  H       │ , <      │ . >      │ / ?      │
+            &kp X      &kp C      &kp D      &kp V      &kp Z                 &kp K      &kp H      &kp COMMA  &kp DOT    &kp FSLH
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤          ├──────────┼──────────┼──────────┴──────────┴──────────╯
                                   &lp NUM ESC    &lp NAV SPACE    &lp SYM TAB    &lp SYM RET     &lp NUM BSPC   &lp FUN DEL //change miryoku like thumb@default
         //                      ╰──────────┴──────────┴──────────╯          ╰──────────┴──────────┴──────────╯
