@@ -26,7 +26,7 @@ include:
     shield: settings_reset
 
 # add the boards v1
-  - board: nice_nano_v1
+  - board: nrf52840_m2
     shield: Keiler_left
-  - board: nice_nano_v1
+  - board: nrf52840_m2
     shield: Keiler_right
