@@ -24,3 +24,9 @@ include:
     shield: settings_reset
   - board: seeeduino_xiao_ble
     shield: settings_reset
+
+//add the boards
+  - board: nice_nano
+    shield: Keiler_left
+  - board: nice_nano
+    shield: Keiler_right
